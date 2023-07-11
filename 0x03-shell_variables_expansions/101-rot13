@@ -1,2 +1,2 @@
 #!/bin/bash
-echo (a..)(a..z) | tr " " "\n" | grep -v "00"
+tr 'A-Za-z' 'N-ZA-Mn-za-m'
